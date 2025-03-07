@@ -16,7 +16,7 @@ const HeroSlider = () => {
     ];
 
     return (
-        <div className="bg-[url('./assets/bg_img.png')] bg-cover bg-center h-screen py-10">
+        <div className="bg-[url('./assets/bg_img.png')] bg-cover bg-center sm:h-screen py-10">
             <Swiper
                 className="mySwiper swiper-h w-full md:w-4/5 h-3/4 md:h-4/5 rounded-xl shadow-2xl overflow-hidden"
                 spaceBetween={30}
@@ -24,10 +24,10 @@ const HeroSlider = () => {
                     clickable: true,
                 }}
                 autoplay={{
-                    delay: 3000, // Auto-slide delay in milliseconds (3 seconds)
-                    disableOnInteraction: false, // Continue autoplay even after user interaction
+                    delay: 3000,
+                    disableOnInteraction: false,
                 }}
-                modules={[Pagination, Autoplay]} // Add Autoplay module
+                modules={[Pagination, Autoplay]}
             >
                 {/* Horizontal Slides */}
                 {horizontalImages.map((image, index) => (
