@@ -6,13 +6,13 @@ import Videos from "./components/Videos";
 
 const App = () => {
   return (
-    <div className="bg-black">
-      <HeroSlider />
+    <>
       <About />
+      <HeroSlider />
       <Videos />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 };
 

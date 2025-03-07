@@ -3,16 +3,16 @@ import React from 'react';
 const Videos = () => {
     // Array of video links (YouTube embed links or any other video source)
     const videos = [
-        'https://www.youtube.com/embed/dQw4w9WgXcQ',
-        'https://www.youtube.com/embed/9bZkp7q19f0',
-        'https://www.youtube.com/embed/JGwWNGJdvx8',
-        'https://www.youtube.com/embed/fRh_vgS2dFE',
-        'https://www.youtube.com/embed/OPf0YbXqDm0',
-        'https://www.youtube.com/embed/RgKAFK5djSk',
+        'https://www.youtube.com/embed/FEA1FcLuBpA?si=AKCc-ymKah9qoMrz',
+        'https://www.youtube.com/embed/-1eHgC1Aark?si=tlFO6zSZgx6i1wML',
+        'https://www.youtube.com/embed/UFnpH0d8At4?si=i1ufYgZ9MaHmCxrf',
+        'https://www.youtube.com/embed/EUksc2Zs6ZQ?si=aTaP8zTJJ7nx79Tz',
+        'https://www.youtube.com/embed/T9zhJTpK5tk?si=B4RXX-kxlt_zQW46',
+        'https://www.youtube.com/embed/FEA1FcLuBpA?si=LVFpgblb86qhSU5J',
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-r from-blue-50 to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-[url('./assets/bg_img.png')] bg-cover bg-center min-h-screen py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-4xl font-bold text-gray-900 text-center mb-8">
                     ভিডিওস
@@ -35,7 +35,7 @@ const Videos = () => {
                             </div>
                             <div className="p-4">
                                 <p className="text-gray-600">
-                                    ভিডিও সম্পর্কে সংক্ষিপ্ত বিবরণ। এটি একটি উদাহরণ বিবরণ।
+                                    ভিডিও সম্পর্কে সংক্ষিপ্ত বিবরণ।
                                 </p>
                             </div>
                         </div>

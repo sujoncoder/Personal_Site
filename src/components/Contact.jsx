@@ -3,7 +3,7 @@ import { Phone, Mail, Facebook, MapPin } from 'lucide-react'; // Import Lucide i
 
 const Contact = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-r from-blue-50 to-purple-50 flex justify-center items-center p-6">
+        <div className="bg-[url('./assets/bg_img.png')] bg-cover bg-center min-h-screen flex justify-center items-center p-6">
             <div className="bg-white rounded-xl shadow-2xl p-8 max-w-4xl w-full">
                 <h2 className="text-4xl font-bold text-gray-900 text-center mb-8">
                     যোগাযোগ করুন
@@ -17,12 +17,12 @@ const Contact = () => {
                         <div>
                             <h3 className="text-xl font-semibold text-gray-800">WhatsApp</h3>
                             <a
-                                href="https://wa.me/1234567890"
+                                href="https://wa.me/01603296044"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 hover:text-blue-800"
                             >
-                                +123 456 7890
+                                01603-296044
                             </a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                                 href="mailto:example@example.com"
                                 className="text-green-600 hover:text-green-800"
                             >
-                                example@example.com
+                                hasibbinmohammad@gmail.com
                             </a>
                         </div>
                     </div>
@@ -51,12 +51,12 @@ const Contact = () => {
                         <div>
                             <h3 className="text-xl font-semibold text-gray-800">Facebook</h3>
                             <a
-                                href="https://facebook.com/example"
+                                href="https://facebook.com/mohammadhasibbin"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-indigo-600 hover:text-indigo-800"
                             >
-                                facebook.com/example
+                                facebook.com/mohammadhasibbin
                             </a>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                         <div>
                             <h3 className="text-xl font-semibold text-gray-800">Location</h3>
                             <p className="text-red-600 hover:text-red-800">
-                                Dhaka, Bangladesh
+                                Magura, Bangladesh
                             </p>
                         </div>
                     </div>
