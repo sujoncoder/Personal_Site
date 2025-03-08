@@ -21,13 +21,13 @@ const videos = [
     },
     {
         id: 5,
-        title: "কুয়াকাটা হুজুরের মায়ের গজল। Hafiz Quri Hasib Bin Mohammad । Bangla Waz 2024",
-        link: "https://www.youtube.com/embed/T9zhJTpK5tk?si=B4RXX-kxlt_zQW46"
+        title: "মাগুরার বক্তা মাঠ কাঁপালেন বী-বারিয়া এসেহাফেজ কারী হাসিব বিন মুহাম্মাদ Hafez Kari Hasib Bin Muhammad",
+        link: "https://www.youtube.com/embed/J1Wv3j0sHPA?si=EsAb3QbPquRBUS7"
     },
     {
         id: 6,
-        title: "মায়াভরা কন্ঠে সেই ভাইরাল গজল ও ওয়াজ। Hafiz Hasib Bin Mohammad । Bangla waz 2023",
-        link: "https://www.youtube.com/embed/FEA1FcLuBpA?si=LVFpgblb86qhSU5J"
+        title: "রাজবাড়ী জেলায় মায়ের বয়ানে লক্ষ মানুষের কান্না। হাসিব বিন মোহাম্মদ মাগুরা। Hasib Bin Mohammad waz",
+        link: "https://www.youtube.com/embed/9eNeIcRtk4o?si=Vw18XMj3nmgUY6xb"
     }
 ];
 export default videos;
