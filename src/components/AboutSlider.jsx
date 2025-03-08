@@ -18,18 +18,18 @@ const AboutSlider = () => {
                 effect={'cards'}
                 grabCursor={true}
                 modules={[EffectCards]}
-                className="w-80 h-96 sm:w-96 sm:h-[500px] bg-transparent" // Set background to transparent
+                className="w-80 h-96 sm:w-96 sm:h-[500px]"
             >
                 {/* Map over the images array and render each image in a SwiperSlide */}
                 {images.map((image, index) => (
                     <SwiperSlide
                         key={index}
-                        className="flex items-center justify-center rounded-xl bg-transparent" // Set background to transparent
+                        className="flex items-center justify-center rounded-xl bg-transparent"
                     >
                         <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-full h-full border-2 shadow-lg border-sky-500 object-cover rounded-xl"
+                            className="w-full h-full object-cover rounded-xl"
                         />
                     </SwiperSlide>
                 ))}

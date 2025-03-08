@@ -10,8 +10,6 @@ const HeroSlider = () => {
         'https://i.ibb.co.com/6R3bvpSM/IMG-20250211-222219.jpg',
         'https://i.ibb.co.com/ymNDsCKJ/1711275703498.jpg',
         'https://i.ibb.co.com/hJVSK6bP/1713102434592.jpg',
-        'https://i.ibb.co.com/hx8htF2n/1735561393719.jpg',
-        'https://i.ibb.co.com/svvV2NMs/1735671379064.jpg',
         'https://i.ibb.co.com/HfSRdR0G/1739180668902.jpg',
     ];
 
